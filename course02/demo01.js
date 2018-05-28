@@ -24,3 +24,9 @@ var colorName = Color[2];
 console.log(colorName);
 var u = undefined;
 var n = null;
+function test(_a) {
+    var _b = _a === void 0 ? { a: 0, b: 1 } : _a, a = _b.a, b = _b.b;
+    console.log(a);
+    console.log(b);
+}
+test();

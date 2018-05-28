@@ -32,3 +32,10 @@ console.log(colorName);
 
 let u: undefined = undefined;
 let n: null = null;
+
+function test({ a, b } = { a: 0, b: 1}): void {
+  console.log(a);
+  console.log(b);
+}
+
+test();
